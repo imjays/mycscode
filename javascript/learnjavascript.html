@@ -1,0 +1,325 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="icon" 
+      type="image/png" 
+      href="/javascript/home/logo.png">
+<title>MYCSCODE |Learn Free Web Tutorial</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<meta name="description" content="Free Web tutorials">
+<meta name="Description" content="Well organized and easy to understand Web building tutorials with lots of examples of how to use HTML, CSS, JavaScript, and PHP.">
+<meta name="keywords" content="HTML, CSS, JavaScript">
+<meta name="Keywords" content="HTML,CSS,JavaScript,PHP,Web development,W3C,tutorials,programming,training,learning,quiz,primer,lessons,references,examples,exercises,source code,colors,demos,tips">
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-9227713632689850",
+    enable_page_level_ads: true
+  });
+</script>
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+
+<script>
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+</script>
+
+<style>
+.header {
+	background-color: dodgerblue;
+	color: white;
+	padding: 10px;
+	font-family: courier;
+	text-align: center;
+	}
+
+.topnav {
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 20px 24px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.topnav a:hover {
+  background-color: dodgerblue;
+  color: black;
+}
+
+.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+#link {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding:10px;
+    font-size:20px;
+    line-height: 25px;
+    border-radius: 4px;
+    background-color:red;
+}
+
+
+#link:hover {
+    background-color:dodgerblue;
+    color: black;
+
+}
+
+#link:active{
+	background-color: #f1f1f1;
+	color: black;
+}
+	
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: absolute;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    background-color: dodgerblue;
+    color:black;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 40px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+
+a{
+    display: inline;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding:10px;
+    line-height: 25px;
+
+}
+a:hover{
+	background-color: dodgerblue;
+	color: black;
+}
+a:active {
+  background-color: grey;
+  color: black;
+		
+}
+
+
+
+	
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+    color: black;
+    text-align: center;
+    font-family:Verdana,sans-serif;
+    font-size:15px;
+
+}
+</style>
+</head>
+
+<body>
+<div class="header">
+  <h1>MYCSCODE</h1>
+<p style="text-align:right;font-size:25px;">Learn Free Web Tutorials.</p>
+</div>
+<div class="topnav" id="myTopnav">
+  <a href="home/index" class="active">Home</a>
+  <div id="myNav" class="overlay">
+      
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+      <h1 style="text-align:center;color:white;">JAVASCRIPT Content</h1>
+  <a href="jsintroduction">JS Introduction</a>
+  <a href="jswhereto">JS Where To</a>
+  <a href="jsoutput">JS Output</a>
+  <a href="jsstatements">JS Statements</a>
+  <a href="jssyntax">JS Syntax</a>
+  <a href="jscomments">JS Comments</a>
+  <a href="jsvariables">JS Variables</a>
+  <a href="jsoperators">JS Operators</a>
+  <a href="jsarthmetic">JS Arthmetic</a>
+  <a href="jsassignment">JS Assignment</a>
+  <a href="jsdatatypes">JS Data Types</a>
+  <a href="jsfunctions">JS Functions</a>
+  <a href="jsobjects">JS Objects</a>
+  <a href="jsevents">JS Events</a>
+  <a href="jsstrings">JS Strings</a>
+  <a href="jsnumbers">JS Numbers</a>
+  <a href="jsarray">JS Array</a>
+  <a href="jsdates">JS Dates</a>
+  <a href="jsmath">JS Math</a>
+  <a href="jsrandom">JS Random</a> 
+  <a href="jsbooleans">JS Booleans</a> 
+  <a href="jscomparisons">JS Comparisons</a>
+  <a href="jsconditions">JS Conditions</a>
+  <a href="jsswitch">JS Switch</a>
+  <a href="jsloopfor">JS Loop For</a>
+  <a href="jsloopwhile">JS Loop While</a>
+  <a href="jsbreak">JS Break</a>
+  <a href="jsconversion">JS Type Conversion</a>
+  <a href="jsbitwise">JS Bitwise</a>
+  <a href="jsregexp">JS RegExp</a>
+  <a href="jsstrictmode">JS Strict Mode</a>
+  <a href="jsthiskeyword">JS This Keyword</a>
+  <a href="jsdebugging">JS Debugging</a>
+  <a href="jsmistakes">JS Mistakes</a> 
+</div>
+</div>
+
+  <a href="/html/learnhtml">HTML</a>
+  <a href="/css/learncss">CSS</a>
+  <a style="font-size:25px;cursor:pointer;padding: 20px 24px;" onclick="openNav()">JAVASCRIPT</a>
+  <a href="/php/learnphp">PHP</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;
+    <i class="fa fa-bars"></i>
+  </a>
+</div>    
+
+
+<div style="padding:15px 15px;font-size:25px">
+<marquee style="text-align:right;color:red;">Click on JAVASCRIPT to See the Content of the Tutorial.</marquee>
+<article style="background-color:#f1f1f1;padding-left:16px;font-size:20px;">
+<h1>Welcome</h1>
+<p>Welcome to Learn JAVASCRIPT with <span style="color:red;font-family:courier;">MYCSCODE</span>. This website is for Web users learning to create their own Web pages.</p> 
+<p><span style="color:red;font-family:courier;">MYCSCODE</span> is one of the top destination to learn HTML and many other key Web languages.</p>
+<h3>What You Should Already Know</h3>
+<p>Before you continue, you should have a basic understanding of HTML and CSS.</p>
+<h3>JAVASCRIPT</h3>
+<p>JavaScript is one of the 3 languages all web developers must learn:<br/>
+<ol>
+<li><b>HTML</b> to define the content of web pages.</li>
+<li><b>CSS</b> to specify the layout of web pages.</li>
+<li><b>JavaScript</b> to program the behavior of web pages.</li>
+</ol>
+<p>Web pages are not the only place where JavaScript is used. Many desktop and server programs use JavaScript. Node.js is the best known. Some databases, like MongoDB and CouchDB, also use JavaScript as their programming language.
+</p>
+<h3>Did You Know?</h3>
+<p>JavaScript and Java are completely different languages, both in concept and design.
+JavaScript was invented by Brendan Eich in 1995, and became an ECMA standard in 1997.
+ECMA-262 is the official name of the standard. ECMAScript is the official name of the language.</p>
+<h4>Learning Speed</h4>
+<p>In this tutorial, the learning speed is your choice.</p>
+<p>Everything is up to you.</p>
+<p>If you are struggling, take a break, or reread the material.</p>
+</article>
+<a id="link" href="jsintroduction" alt="Start Link" title="Let's Start JAVASCRIPT">Let's Start JAVASCRIPT</a>
+
+
+</div>
+
+<div class="footer">
+  <p><b>Designed</b> & <b>Developed</b> By<a href="http://instagram.com/itsmemanishtiwari">Manish Tiwari</a>.</p>
+<p><strong>DISCLAIMER:</strong> All website's content are constantly reviewed to avoid any kind of errors, but we cannot warrant full correctness of all content. 
+While using this site, you agree to have read and accepted our terms of use and privacy policy. <br>All Rights Reserved.&copy;</p>
+<strong>Follow us on</strong> <a href="http://fb.com/mycscode">Facebook</a>
+			 			 <a href="http://instagram.com/mycscode">Instagram</a>
+						 <a href="http://twitter.com/mycscode">Twitter</a>
+<br>
+<a href="termsofuse">Terms of Use</a>
+<a href="privacy">Privacy Policy</a>
+</div>
+
+
+
+</body>
+</html>
